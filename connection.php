@@ -2,7 +2,7 @@
 date_default_timezone_set('Asia/Kolkata');
 $servername = "db-mysql-blr1-00436-do-user-12232507-0.b.db.ondigitalocean.com";
 $username = "doadmin";
-$password = "AVNS_sRVnWmkZg6brEHdfOMw";
+$password = "AVNS_U7hZWuzHqefOjo73Xuf";
 $dbname = "defaultdb";
 $port = "25060";
 
