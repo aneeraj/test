@@ -11,7 +11,7 @@ if (!$con) {
   die("mysqli_init failed");
 }
 
-mysqli_ssl_set($con, NULL, NULL, "/ca-certificate.crt", NULL, NULL);
+mysqli_ssl_set($con, NULL, NULL, "ca-certificate.crt", NULL, NULL);
 
 if (!mysqli_real_connect($con, $servername, $username, $password, $dbname, $port)) {
   die("Connect Error: " . mysqli_connect_error());
