@@ -1,0 +1,68 @@
+body{
+  font-family: 'Montserrat';
+  background-color: rgb(228,236,220,0.5);
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+.white{
+  color: white!important;
+}
+.log{
+  border: 1px solid white;
+  width: 90px;
+  border-radius: 10px;
+  text-align: center;
+}
+.nav-item{
+  font-weight: bolder!important;
+}
+.navbar{
+  background: linear-gradient(84deg, rgba(248,164,147,1) 0%, rgba(245,227,161,1) 100%);
+}
+.imgsec{
+  height: 45vh;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-image: url('../topimg2.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(151,136,110,.7);
+}
+.innerrow{
+  display: block;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 1000px;
+  text-align: center;
+}
+.donate-now{
+  color: #BFCC6D;
+}
+#types .holder{
+  border-radius: 5px;
+}
+.img-hover-zoom{
+  overflow: hidden;
+  background-color: lightblue;
+}
+.img-hover-zoom img{
+  transition: transform .5s ease;
+  opacity: 0.6;
+}
+.img-hover-zoom:hover img{
+  transform: scale(1.2);
+  opacity: 1;
+}
+.img-hover-zoom h3{
+  font-size: 32px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Dosis';
+  z-index: 99;
+}

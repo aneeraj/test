@@ -1,0 +1,88 @@
+body{
+  font-family: 'Montserrat';
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+button:focus{
+  outline: none;
+}
+.navbar{
+  background: linear-gradient(84deg, rgba(248,164,147,1) 0%, rgba(245,227,161,1) 100%);
+}
+.bg-cornflower{background-color: #4C5270!important;}
+.white{color:#fff!important}
+.img-tp{
+  position: absolute;
+  right: 0;
+  height: 500px;
+}
+.log{
+  border: 1px solid white;
+  width: 90px;
+  border-radius: 10px;
+  text-align: center;
+}
+.imgsec{
+  height: 90.5vh;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-image: url('../topimg.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(151,136,110,.7);
+}
+.innerrow{
+  display: block;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 1000px;
+  text-align: center;
+}
+.donate-now{
+  color: #BFCC6D;
+}
+.dn-btn{
+  height: 50px;
+  min-width: 200px;
+  border: none;
+  border-radius: 25px;
+  background: rgb(247,172,148);
+  background: linear-gradient(84deg, rgba(248,164,147,1) 0%, rgba(245,227,161,1) 100%);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.exp-btn{
+  height: 50px;
+  min-width: 200px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.con-box{
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.swiper-slide{
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.swiper-slide img{
+  border-radius: 10px 10px 0px 0px ;
+  height: 220px;
+}
+.swiper-slide h5{
+  height: 1.45rem;
+   white-space: nowrap;
+  overflow: hidden;
+   text-overflow: ellipsis;
+}
+.swiper-slide p{
+  height: 150px;
+  overflow: hidden;
+}

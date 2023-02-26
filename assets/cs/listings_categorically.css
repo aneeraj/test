@@ -1,0 +1,83 @@
+body{
+  font-family: 'Montserrat';
+  background-color: rgb(228,236,220,0.5);
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+.white{
+  color: white!important;
+}
+.log{
+  border: 1px solid white;
+  width: 90px;
+  border-radius: 10px;
+  text-align: center;
+}
+.black{
+  color: black!important;
+}
+.navbar{
+  background: linear-gradient(84deg, rgba(248,164,147,1) 0%, rgba(245,227,161,1) 100%);
+}
+.imgsec{
+  height: 30vh;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-image: url('../topimg3.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(151,136,110,.7);
+}
+.innerrow{
+  display: block;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 1000px;
+  text-align: center;
+}
+.heighted{
+  max-height: 70vh;
+}
+.donate-now{
+  color: #BFCC6D;
+}
+.left-links a{
+  display: block;
+  margin-top: 12px!important;
+  font-size: 14px;
+}
+
+.card-title{
+  font-size: 18px;
+  height: 20px;
+  overflow: hidden;
+}
+.card{
+  height: 450px;
+  box-shadow: 0 4px 10px 0 rgb(156 51 83 / 30%);
+  border-radius: 6px;
+}
+.card img, .card img:after{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-image: linear-gradient(0deg,transparent 34%,#000 99%);
+}
+.card-text{
+  font-size: 14px;
+}
+.btn-primary{
+  font-size: 14px;
+  color: white;
+  background: linear-gradient(84deg, rgba(248,164,147,1) 0%, rgba(248,220,161,01) 100%);
+  border: none;
+  font-weight:bold;
+}
+.progress-bar {
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+}
+.small-text{
+  font-size: 14px;
+}
