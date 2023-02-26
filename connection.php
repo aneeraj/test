@@ -5,10 +5,17 @@ $username = "doadmin";
 $password = "AVNS_sRVnWmkZg6brEHdfOMw";
 $dbname = "defaultdb";
 $port = "25060";
-$conn = mysqlii_init();
-$conn->ssl_set(null, null, 'ca-certificate.crt', null, null);
-$conn->real_connct($servername, $username, $password, $dbname, $port);
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+
+$con = mysqli_init();
+if (!$con) {
+  die("mysqli_init failed");
 }
+
+mysqli_ssl_set($con, NULL, NULL, "/ca-certificate.crt", NULL, NULL);
+
+if (!mysqli_real_connect($con, $servername, $username, $password, $dbname, $port)) {
+  die("Connect Error: " . mysqli_connect_error());
+}
+
+
 ?>
