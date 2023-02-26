@@ -6,14 +6,14 @@ $password = "AVNS_U7hZWuzHqefOjo73Xuf";
 $dbname = "defaultdb";
 $port = "25060";
 
-$con = mysqli_init();
-if (!$con) {
+$conn = mysqli_init();
+if (!$conn) {
   die("mysqli_init failed");
 }
 
 mysqli_ssl_set($con, NULL, NULL, "ca-certificate.crt", NULL, NULL);
 
-if (!mysqli_real_connect($con, $servername, $username, $password, $dbname, $port)) {
+if (!mysqli_real_connect($conn, $servername, $username, $password, $dbname, $port)) {
   die("Connect Error: " . mysqli_connect_error());
 }
 
